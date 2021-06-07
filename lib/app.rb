@@ -12,3 +12,7 @@ end
 get '/bye' do
   "Bye!"
 end
+
+get '/cat' do
+  "<div><img src='https://i.imgur.com/jFaSxym.png' style='border: dashed red;'></div>"
+end
